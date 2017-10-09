@@ -1,6 +1,6 @@
 # PgDriveBackup
 
-Simple solution to make encrypted with [ccrypt](http://ccrypt.sourceforge.net/) PostgreSQL backups with storing on [Google Drive API](https://github.com/gimite/google-drive-ruby)
+Simple solution to make encrypted with [ccrypt](http://ccrypt.sourceforge.net/) PostgreSQL backups and storing on [Google Drive API](https://github.com/gimite/google-drive-ruby)
 
 ## Installation
 
