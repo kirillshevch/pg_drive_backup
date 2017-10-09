@@ -60,14 +60,14 @@ Config options:
 
 ```ruby
 PgDriveBackup::Settings.configure do |config|
-  config.credentials_path = 'config/drive.json' # default: 'config/drive.json'
-  config.key_path = 'config/key.txt' # default: 'config/key.txt'
-  config.prefix = '-dump' # default: '-dump'
+  config.credentials_path = 'config/drive.json'       # default: 'config/drive.json'
+  config.key_path = 'config/key.txt'                  # default: 'config/key.txt'
+  config.prefix = '-dump'                             # default: '-dump'
 
-  config.database.name = 'database_name' # default: nil
-  config.database.user = ENV.fetch('PG_USERNAME') # default: nil
+  config.database.name = 'database_name'              # default: nil
+  config.database.user = ENV.fetch('PG_USERNAME')     # default: nil
   config.database.password = ENV.fetch('PG_PASSWORD') # default: nil
-  config.database.host = 'localhost' # default: 'localhost'
+  config.database.host = 'localhost'                  # default: 'localhost'
 end
 ```
 
