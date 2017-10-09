@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'byebug'
 require 'pg_drive_backup'
 
 RSpec.configure do |config|
