@@ -1,6 +1,5 @@
-require 'bundler/setup'
+require 'dry-configurable'
+require 'google_drive'
 require 'pg_drive_backup/version'
-
-module PgDriveBackup
-  # Your code goes here...
-end
+require 'pg_drive_backup/settings'
+require 'pg_drive_backup/run'
