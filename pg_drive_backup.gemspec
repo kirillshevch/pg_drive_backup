@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'google_drive', '~> 2.1.6'
   spec.add_dependency 'dry-configurable', '~> 0.7'
 
-  spec.add_development_dependency 'bundler', '~> 1.14'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 12.0'
   spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'byebug', '~> 9.1.0'
