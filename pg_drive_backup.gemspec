@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-configurable', '~> 0.7'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
-  spec.add_development_dependency 'rake', '~> 12.0'
+  spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'byebug', '~> 11.0.1'
   spec.add_development_dependency 'rubocop', '~> 0.50.0'
